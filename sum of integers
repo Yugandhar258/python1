@@ -1,0 +1,7 @@
+n = int(input("Enter the number"))
+b =abs(n)
+add = 0
+while (b>0):
+    add = add + (b%10)
+    b = int(b/10)
+print(add)
